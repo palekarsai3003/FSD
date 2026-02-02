@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <title>
+            Photo Gallery
+        </title>
+        <style>
+            
+/*Body of Page*/
+
+*{
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 16px;
+}
+
+body
+{
+    margin: 0;
+    background-color: rgba(189, 153, 228, 0.434);
+}
+
+/*Header*/
+
+header
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+header h1
+{
+    font-size: 4rem;
+    font-family: times new roman;
+    color: rgb(117, 41, 41);
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+header p
+{
+    font-family: serif;
+    font-size: 1.5rem;
+    color: rgb(214, 98, 98);
+}
+
+/* Sign In Button */
+
+.signin-btn
+{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-family: serif;
+    cursor: pointer;
+}
+
+/*Main Content*/
+
+.Gallery
+{
+    background-color: rgb(36, 5, 66);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 88%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.photos
+{
+    margin: 15px 0;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+/*Footer*/
+
+footer
+{
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer h2
+{
+    margin-bottom: 0;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="sign_in.html">
+                <button class="signin-btn">Sign In</button>
+            </a>
+            <h1>Photo Gallery</h1>
+            <p>Frames of Feeling</p>
+        </header>
+
+        <main>
+            <div class="Gallery">
+                <img src="1.jpeg" alt="AI-1"   class="photos">
+                <img src="2.jpeg" alt="AI-2"   class="photos">
+                <img src="3.jpeg" alt="AI-3"   class="photos">
+                <img src="4.jpeg" alt="AI-4"   class="photos">
+                <img src="5.jpeg" alt="AI-5"   class="photos">
+                <img src="6.jpeg" alt="AI-6"   class="photos">
+                <img src="7.jpeg" alt="AI-7"   class="photos">
+                <img src="8.jpeg" alt="AI-8"   class="photos">
+                <img src="9.jpeg" alt="AI-9"   class="photos">
+                <img src="10.jpeg" alt="AI-10" class="photos">
+                <img src="11.jpeg" alt="AI-11" class="photos">
+                <img src="12.jpeg" alt="AI-12" class="photos">
+            </div>
+        </main>
+
+        <footer>
+            <h2>Captured by @Sai_Palekar</h2>
+            <h3>All copyrights reserved.</h3>
+        </footer>
+    </body>
+</html>
