@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-section" id="home">
+        <div class="overlay"></div>
+        
+        <nav class="navbar">
+            <div class="container nav-container">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#works">EDUCATION</a></li>
+                    <li><a href="#portfolio">SKILLS</a></li>
+                    <li><a href="#activity">PROJECTS</a></li>
+                    <li><a href="#contact-section">CONTACT</a></li>
+                </ul>
+                
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <h1>INNOVATION IN MOTION<br>Voltage & Vision</h1>
+            <a href="#activity" class="btn-explore">EXPLORE</a>
+        </div>
+    </header>
+
+    <div class="pink-wrapper">
+        
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-card">
+                    <div class="about-img">
+                        <img src="6.jpeg" alt="Sai Palekar">
+                    </div>
+                    <div class="about-text">
+                        <h2>I AM SAI PALEKAR.</h2>
+                        <span class="subtitle">Engineering Student</span>
+                        <p>Hi, I am a Third Year Electrical and Computer Engineering student with a growing interest in hardware systems and the Internet of Things (IoT). I am particularly drawn to working at the intersection of software and hardware, where ideas take shape as tangible, functional systems. Outside of academics, I enjoy reading, exploring new food, traveling, and listening to music. I am always looking to learn, build thoughtfully, and deepen my understanding of technology.</p>
+                        
+                        <div class="about-buttons">
+                            <a href="#contact-section" class="btn-pink">CONTACT</a>
+                            <a href="Resumé.pdf" class="btn-pink btn-outline" download>RESUMÉ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="works-section" id="works">
+            <div class="container">
+                <div class="section-header">
+                    <h3>EDUCATION</h3>
+                </div>
+
+                <div class="works-carousel" id="worksCarousel">
+                    <div class="work-card education-card">
+                        <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h4>Bachelor of Engineering</h4>
+                        <p class="card-subtitle">Electrical & Computer Engineering</p>
+                        <p class="card-desc">Currently Pursuing - Third Year</p>
+                    </div>
+
+                    <div class="work-card education-card">
+                        <div class="card-icon"><i class="fas fa-university"></i></div>
+                        <h4>Higher Secondary (12th)</h4>
+                        <p class="card-subtitle">Science Stream</p>
+                        <p class="card-desc">Completed with Distinction</p>
+                    </div>
+
+                    <div class="work-card education-card">
+                        <div class="card-icon"><i class="fas fa-school"></i></div>
+                        <h4>Secondary School (10th)</h4>
+                        <p class="card-subtitle">Foundation Year</p>
+                        <p class="card-desc">Completed with Excellence</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="portfolio-grid-section" id="portfolio">
+        <div class="container">
+            <div class="portfolio-header">
+                <h3>SKILLS</h3>
+            </div>
+            <div class="portfolio-grid">
+                <div class="grid-card">
+                    <img src="1.jpeg" alt="IoT">
+                    <div class="grid-overlay"><h4>IoT Systems</h4></div>
+                </div>
+                <div class="grid-card">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Coding">
+                    <div class="grid-overlay"><h4>Programming</h4></div>
+                </div>
+                <div class="grid-card">
+                    <img src="2.png" alt="Web">
+                    <div class="grid-overlay"><h4>Web Dev</h4></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="activity-section" id="activity">
+        <div class="container">
+            <div class="activity-header">
+                <h3>PROJECTS</h3>
+            </div>
+            <div class="activity-container" id="activityContainer">
+                <div class="activity-card">
+                    <img src="3.jpeg" alt="Project 1">
+                    <div class="activity-overlay"><p>Anti-Lock Braking System (ABS) with MATLAB / Simulink</p></div>
+                </div>
+                <div class="activity-card">
+                    <img src="4.jpeg" alt="Project 2">
+                    <div class="activity-overlay"><p>Smart Home Automation System using IoT</p></div>
+                </div>
+                <div class="activity-card">
+                    <img src="5.jpeg" alt="Project 3">
+                    <div class="activity-overlay"><p>Photography Website</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact-section">
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.421773410784!2d73.856743!3d18.520430!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDMxJzEzLjUiTiA3M8KwNTEnMjQuMyJF!5e0!3m2!1sen!2sin!4v1625555555555!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="contact-form-wrapper">
+            <div class="form-card">
+                <h3>CONTACT ME</h3>
+                <form id="contactForm">
+                    <div class="form-group"><input type="text" placeholder="Your Name" required></div>
+                    <div class="form-group"><input type="email" placeholder="Your Email" required></div>
+                    <div class="form-group"><textarea placeholder="Your Message" rows="5" required></textarea></div>
+                    <button type="submit" class="btn-send">Send</button>
+                    <p id="successMessage" class="success-message">Message Sent Successfully! ✅</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="copyright-bar">
+        <div class="container">
+            <p>© 2026 Sai Palekar | All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
